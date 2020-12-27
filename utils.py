@@ -27,7 +27,7 @@ def send_oracle_message(reply_token):
     url=[['聖筊，\n海螺覺得可以~','https://tshop.r10s.com/c3745850-6485-11e8-90bd-a81e84d03920/coaster/coaster_smoothly.jpg'],
         ['笑筊，\n海螺覺得呵呵 :/','https://pic.pimg.tw/goodincense888/1498641821-694813174.jpg'],
         ['陰筊，\n海螺覺得不行 :(','https://pic.pimg.tw/ken201010/1560940820-747636450_n.jpg'],
-        ['立筊，\n!!!!!天有異相!!!!!','']]
+        ['立筊，\n!!!!!天有異相!!!!!','https://cc.tvbs.com.tw/img/upload/2020/03/01/20200301121052-ce36bd07.jpg']]
     msg.append(ImageSendMessage(original_content_url=url[n][1], preview_image_url=url[n][1]))
     msg.append(TextSendMessage(text=("神奇海螺決定給 "+url[n][0])))
    # msg.append(TextSendMessage(text=("神奇海螺決定給 "+url[n][0])))
