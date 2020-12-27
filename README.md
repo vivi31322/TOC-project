@@ -17,45 +17,25 @@
             - 陰筊
             - 笑筊
             - 立筊
-       
-- `抽籤`
-     a. `抽數字`
-        1. 輸入數字範圍
-        2. 輸出中獎結果
-     b. `抽選項`
-        1. 輸入選項，以換行分隔
-        2. 輸出結果
+- `抽籤` 
+     - a.`抽數字`
+        - 1. 輸入數字範圍
+	- 2. 輸出中獎結果
+     - b.`抽選項`
+        - 1. 輸入選項，以換行分隔
+        - 輸出中獎結果
 - `結果`
     - 每項功能結尾皆會跳回主選單
 
 ## 使用示範
-### 輸入個人資訊
-![](https://i.imgur.com/RAXRooY.jpg)
-![](https://i.imgur.com/3VkDy82.jpg)
-![](https://i.imgur.com/JhK01qT.jpg)
-![](https://i.imgur.com/OCsoSBk.jpg)
+### 開始
+![](/img/d6.jpg)
+![](/img/d5.jpg)
+![](/img/d4.jpg)
+![](/img/d3.jpg)
 ### 增肌
-![](https://i.imgur.com/OodsURE.jpg)
-![](https://i.imgur.com/95lZAGO.jpg)
-![](https://i.imgur.com/DOj8yEs.jpg)
-![](https://i.imgur.com/bgeHzOf.jpg)
-![](https://i.imgur.com/R2vy5FN.jpg)
-![](https://i.imgur.com/TfHJx3t.jpg)
-![](https://i.imgur.com/6ZEIZzI.jpg)
-![](https://i.imgur.com/2iNuLe8.jpg)
-### 減脂(生酮飲食)
-![](https://i.imgur.com/Aej3bXd.jpg)
-![](https://i.imgur.com/shzYGJD.jpg)
-![](https://i.imgur.com/nxUfsPP.jpg)
-![](https://i.imgur.com/pvibAF1.jpg)
-![](https://i.imgur.com/xqbqg5A.jpg)
-![](https://i.imgur.com/hsoAJeE.jpg)
-![](https://i.imgur.com/7KyAzOK.jpg)
-### 隨時畫FSM
-![](https://i.imgur.com/kk8b9aa.jpg)
-### 聊天機器人
-![](https://i.imgur.com/co5NtdJ.jpg)
-![](https://i.imgur.com/v0uG700.jpg)
+![](/img/d2.jpg)
+![](/img/d1.jpg)
 
 
 ## FSM
@@ -78,14 +58,3 @@
 - show_food: 根據使用者要增肌或低醣飲食或生酮飲食，顯示使用者一天三大營養素應該各吃多少
 - show_img: 根據使用者要增肌或低醣飲食或生酮飲食，回傳三大營養素比例的圓餅圖
 - query: 作者事先整理過衛生署公布的各食物營養素，使用者可輸入他想要查詢的食物，會回傳所有相關該關鍵字的食物三大營養素提供給作者參考
-
-
-
-
-
-
-
-	```
-
-
-	```
