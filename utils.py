@@ -30,7 +30,7 @@ def send_oracle_message(reply_token):
         ['立筊，\n!!!!!天有異相!!!!!','https://cc.tvbs.com.tw/img/upload/2020/03/01/20200301121052-ce36bd07.jpg']]
     msg.append(ImageSendMessage(original_content_url=url[n][1], preview_image_url=url[n][1]))
     msg.append(TextSendMessage(text=("神奇海螺決定給 "+url[n][0])))
-   # msg.append(TextSendMessage(text=("神奇海螺決定給 "+url[n][0])))
+   
     line_bot_api.reply_message(reply_token, msg)
 
     return "OK"
