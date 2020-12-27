@@ -75,7 +75,7 @@ class TocMachine(GraphMachine):
         print("I'm entering lotnum")
         op=True
         reply_token = event.reply_token
-        send_text_message(reply_token, "請輸入數字範圍，\n將隨機抽選1~此數字。")
+        send_text_message(reply_token, "請輸入數字範圍上限，\n將隨機抽選1~此數字。")
         
         
     
