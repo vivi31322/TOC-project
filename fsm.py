@@ -12,6 +12,10 @@ class TocMachine(GraphMachine):
         text = event.message.text
         return text == '召喚海螺'
 
+    def is_going_to_demo(self,event):
+        text = event.message.text
+        return text == "demo"
+
     def is_going_to_oracle(self, event):
         text = event.message.text
         return text == "@@@擲筊@@@"
@@ -50,6 +54,13 @@ class TocMachine(GraphMachine):
         
         #self.go_back()
     
+    def on_enter_demo(self, event):
+        print("I'm entering menu")
+        reply_token = event.reply_token
+        send_text_message(reply_token,'demo')
+        
+       
+
     def on_enter_oracle(self, event):
         print("I'm entering state1")
         reply_token = event.reply_token

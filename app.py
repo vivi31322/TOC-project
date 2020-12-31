@@ -15,9 +15,10 @@ load_dotenv()
 
 
 machine = TocMachine(
-    states=["user", "menu", "oracle","lottery","lott_num","lott_text","ora_final","lott_final"],
+    states=["user", "menu", "oracle","lottery","lott_num","lott_text","ora_final","lott_final","demo"],
     transitions=[
         {"trigger": "advance","source": "user","dest": "menu","conditions": "is_going_to_menu"},
+        {"trigger": "advance","source": "menu","dest": "demo","conditions": "is_going_to_demo"},
         {"trigger": "advance","source": "menu","dest": "oracle","conditions": "is_going_to_oracle"},
         {"trigger": "advance","source": "menu","dest": "lottery","conditions": "is_going_to_lottery"},
         {"trigger": "advance","source": "oracle","dest": "ora_final","conditions": "is_going_to_ora_final"},
